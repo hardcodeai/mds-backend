@@ -9,3 +9,7 @@
 ### Running the api
 
 `npm start`
+
+### NB:
+Please send a request to '/users' path with the body of {username:'<requisite username>', password:'<requisite password>'}. This route
+has been left unprotected for that reason. I did not find a time to put in a handler Ui for the same.
